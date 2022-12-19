@@ -66,6 +66,9 @@ The steps for this homework are divided into the following sections:
 
 1. Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
 
+<img width="1306" alt="Screenshot 2022-12-11 at 2 44 29 PM" src="https://user-images.githubusercontent.com/18622578/208348762-05d8deb5-78c8-4d46-9aa7-687c66a0bd90.png">
+
+
 2. In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment.
 
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
@@ -85,17 +88,31 @@ To interact with your deployed smart contract, complete the following steps:
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
     > ```
 
+<img width="344" alt="Screenshot 2022-12-11 at 2 49 00 PM" src="https://user-images.githubusercontent.com/18622578/208348885-a96354cc-95b9-4e93-9ada-9b4a5e792130.png">
+
+
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
     * Transaction 1: Send 1 ether as wei.
+<img width="344" alt="Screenshot 2022-12-11 at 2 49 34 PM" src="https://user-images.githubusercontent.com/18622578/208349000-c6ccf0cc-187b-40cd-a2c3-0cdf0be53b66.png">
+
+
 
     * Transaction 2: Send 10 ether as wei.
+<img width="355" alt="Screenshot 2022-12-11 at 2 50 34 PM" src="https://user-images.githubusercontent.com/18622578/208349037-3b4e3236-1d9b-4e80-90f1-63eb781953d2.png">
+
+
 
     * Transaction 3: Send 5 ether.
+<img width="355" alt="Screenshot 2022-12-11 at 2 50 56 PM" src="https://user-images.githubusercontent.com/18622578/208349087-94e5e7d8-c53e-4eb2-a114-a5bd9d54e33a.png">
+
 
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+<img width="347" alt="Screenshot 2022-12-11 at 2 53 30 PM" src="https://user-images.githubusercontent.com/18622578/208349133-11f88e76-416d-45bb-8762-cd41ce088121.png">
+
+<img width="298" alt="Screenshot 2022-12-11 at 2 54 36 PM" src="https://user-images.githubusercontent.com/18622578/208349183-e8a15f03-0f8a-4ea2-bb14-ec69e5aaec00.png">
 
 ---
 
